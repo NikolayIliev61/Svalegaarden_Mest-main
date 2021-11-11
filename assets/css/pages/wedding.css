@@ -1,0 +1,48 @@
+.header-wedding{
+    background-image: url(../../image/events/Wedding/400x300/weding1.jpg);
+    /* image taken from unsplash https://unsplash.com/photos/O38Id_cyV4M */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-content__wedding{
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.main-content__heading--wedding{
+   grid-column: 1/13;
+   grid-row: 1/2;
+   padding-bottom: 5rem;
+
+}
+
+.main-content__first-section--wedding .heading-secondary h2{
+    margin-top: 0 !important;
+}
+
+.main-content__first-section--wedding{
+    height: 50rem;
+    margin-bottom: 8rem;
+    grid-column: 1/13;
+    grid-row: 2/3;
+    
+    display: grid;
+    align-items: center;
+
+background: linear-gradient(0deg, rgba(150,25,43,.8), rgba(150,25,43,.8)), url(../../image/events/Wedding/400x300/wed1.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+/* CODE FOR WEB VERSION ONLY */
+
+.landing__img{
+    display: none;
+}
